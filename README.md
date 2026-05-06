@@ -24,7 +24,6 @@ Screenshots
 <img width="1902" height="956" alt="Screenshot 2026-05-01 234135" src="https://github.com/user-attachments/assets/b27e9a3f-30c3-4780-b2cb-fe8f7c9b3515" />
 
 # Testing
-<img width="798" height="625" alt="Screenshot 2026-04-14 154155" src="https://github.com/user-attachments/assets/1ba5fd73-b0d4-4819-91f1-32e347e647e3" />
 
 <img width="798" height="626" alt="Screenshot 2026-05-01 234235" src="https://github.com/user-attachments/assets/1b617ecd-2e31-4a6d-9ffd-d3458db12c8f" />
 
