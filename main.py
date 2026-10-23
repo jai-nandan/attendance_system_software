@@ -18,21 +18,21 @@ class Face_Recognition_System:
 
         # ================= HEADER IMAGES =================
 
-        img = Image.open(r"D:\project of ai engineer\attendance system\college_images\BestFacialRecognition.jpg")
+        img = Image.open(r"D:\Projects\Advance project\attendance system\college_images\BestFacialRecognition.jpg")
         img = img.resize((500, 130), Image.Resampling.LANCZOS)
         self.photoimg = ImageTk.PhotoImage(img)
 
         f_lb1 = Label(self.root, image=self.photoimg)
         f_lb1.place(x=0, y=0, width=500, height=130)
 
-        img1 = Image.open(r"D:\project of ai engineer\attendance system\college_images\facialrecognition.jpg")
+        img1 = Image.open(r"D:\Projects\Advance project\attendance system\college_images\facialrecognition.jpg")
         img1 = img1.resize((500, 130), Image.Resampling.LANCZOS)
         self.photoimg1 = ImageTk.PhotoImage(img1)
 
         f_lb2 = Label(self.root, image=self.photoimg1)
         f_lb2.place(x=500, y=0, width=500, height=130)
 
-        img2 = Image.open(r"D:\project of ai engineer\attendance system\college_images\images.jpg")
+        img2 = Image.open(r"D:\Projects\Advance project\attendance system\college_images\images.jpg")
         width, height = img2.size
         img2 = img2.crop((0, 0, width - 120, height))
         img2 = img2.resize((550, 130), Image.Resampling.LANCZOS)
@@ -43,7 +43,7 @@ class Face_Recognition_System:
 
         # ================= BACKGROUND =================
 
-        img3 = Image.open(r"D:\project of ai engineer\attendance system\college_images\background.png")
+        img3 = Image.open(r"D:\Projects\Advance project\attendance system\college_images\background.png")
         img3 = img3.resize((1530, 768), Image.Resampling.LANCZOS)
         self.photoimg3 = ImageTk.PhotoImage(img3)
 
@@ -75,35 +75,35 @@ class Face_Recognition_System:
         # ================= BUTTONS =================
 
         create_button(
-            r"D:\project of ai engineer\attendance system\college_images\Gemini_Generated_Image_vrubbkvrubbkvrub.png",
+            r"D:\Projects\Advance project\attendance system\college_images\Gemini_Generated_Image_vrubbkvrubbkvrub.png",
             "Student Panel", 200, 100, self.student_details)
 
         create_button(
-            r"D:\project of ai engineer\attendance system\college_images\face_dector.png",
+            r"D:\Projects\Advance project\attendance system\college_images\face_dector.png",
             "Face Detector", 500, 100, self.face_detector)
 
         create_button(
-            r"D:\project of ai engineer\attendance system\college_images\report.jpg",
+            r"D:\Projects\Advance project\attendance system\college_images\report.jpg",
             "Attendance", 800, 100, self.attendance)
 
         create_button(
-            r"D:\project of ai engineer\attendance system\college_images\Gemini_Generated_Image_bvxwe7bvxwe7bvxw.png",
+            r"D:\Projects\Advance project\attendance system\college_images\Gemini_Generated_Image_bvxwe7bvxwe7bvxw.png",
             "Help Support", 1100, 100, self.help_support)
 
         create_button(
-            r"D:\project of ai engineer\attendance system\college_images\Train.jpg",
+            r"D:\Projects\Advance project\attendance system\college_images\Train.jpg",
             "Data Train", 200, 380, self.train_data)
 
         create_button(
-            r"D:\project of ai engineer\attendance system\college_images\sample.jpg",
+            r"D:\Projects\Advance project\attendance system\college_images\sample.jpg",
             "Photo Sample", 500, 380, self.photo_sample)
 
         create_button(
-            r"D:\project of ai engineer\attendance system\college_images\developer.png",
+            r"D:\Projects\Advance project\attendance system\college_images\developer.jpg",
             "Developers", 800, 380, self.developers)
 
         create_button(
-            r"D:\project of ai engineer\attendance system\college_images\Gemini_Generated_Image_clsy5clsy5clsy5c.png",
+            r"D:\Projects\Advance project\attendance system\college_images\Gemini_Generated_Image_clsy5clsy5clsy5c.png",
             "Exit", 1100, 380, self.iExit)
         def open_image(self):
             os.startfile("data")
@@ -132,7 +132,7 @@ class Face_Recognition_System:
         self.app = Train(self.new_window)
 
     def photo_sample(self):
-     path = "D:/project of ai engineer/attendance system/data"
+     path = r"D:\Projects\Advance project\attendance system\data"
 
      if not os.path.exists(path):
          os.makedirs(path)

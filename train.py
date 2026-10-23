@@ -22,7 +22,7 @@ class Train:
 
          #==================TOP IMAGE=================
                
-        img_top = Image.open(r"D:\project of ai engineer\attendance system\college_images\facialrecognition.jpg")
+        img_top = Image.open(r"D:\Projects\Advance project\attendance system\college_images\facialrecognition.jpg")
         img = img_top.resize((1530, 325), Image.Resampling.LANCZOS)
         self.bg_photo = ImageTk.PhotoImage(img)
 
@@ -37,7 +37,7 @@ class Train:
           #==================BOTTOM IMAGE=================
 
 
-        img_bottom = Image.open(r"D:\project of ai engineer\attendance system\college_images\person.png")
+        img_bottom = Image.open(r"D:\Projects\Advance project\attendance system\college_images\person.png")
         img = img_bottom.resize((1530, 325), Image.Resampling.LANCZOS)
         self.bg_photo_bottom = ImageTk.PhotoImage(img)
 
